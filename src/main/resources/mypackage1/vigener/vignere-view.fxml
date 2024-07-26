@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F0F0E2;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mypackage1.vigener.VignereController">
+   <children>
+      <Label layoutX="66.0" layoutY="81.0" prefHeight="29.0" prefWidth="103.0" text="Nachricht">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="135.0" prefHeight="27.0" prefWidth="103.0" text="Schlüssel">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="187.0" prefHeight="27.0" prefWidth="103.0" text="Ergebnis">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfeld1" layoutX="180.0" layoutY="83.0" prefHeight="25.0" prefWidth="299.0" />
+      <TextField fx:id="tfeld2" layoutX="180.0" layoutY="136.0" prefHeight="25.0" prefWidth="299.0" />
+      <TextField fx:id="tfeld3" layoutX="180.0" layoutY="188.0" prefHeight="25.0" prefWidth="299.0" />
+      <Button fx:id="beenden" layoutX="101.0" layoutY="271.0" mnemonicParsing="false" onAction="#btn_beenden" prefHeight="25.0" prefWidth="87.0" text="Beenden">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="ver" layoutX="203.0" layoutY="271.0" mnemonicParsing="false" onAction="#btn_Ver" prefHeight="25.0" prefWidth="103.0" text="Verschlüsseln">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="ent" layoutX="317.0" layoutY="271.0" mnemonicParsing="false" onAction="#btn_Ent" prefHeight="25.0" prefWidth="103.0" text="Entschlüsseln">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="loeschen" layoutX="428.0" layoutY="271.0" mnemonicParsing="false" onAction="#btn_loeschen" prefHeight="25.0" prefWidth="103.0" text="Löschen">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Button>
+   </children>
+</Pane>
